@@ -1,0 +1,1 @@
+--module-path /home/marian/Documents/javafx-sdk-14/lib  --add-modules javafx.controls,javafx.fxml
