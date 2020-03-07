@@ -12,13 +12,13 @@ public class Executor {
         System.out.println(dbUtil.selectAllItem(account));
         System.out.println(dbUtil.selectAllItem(profile));
 
-        dbUtil.deleteItem(account, 2);
-        dbUtil.deleteItem(profile, 2);
+        dbUtil.deleteItem(account, 50);
+        dbUtil.deleteItem(profile, 50);
 
         dbUtil.insertItem(account);
         dbUtil.insertItem(profile);
 
-        dbUtil.updateItem(account, 3);
-        dbUtil.updateItem(profile, 3);
+        dbUtil.updateItem(account, 8);
+        dbUtil.updateItem(profile, 8);
     }
 }
